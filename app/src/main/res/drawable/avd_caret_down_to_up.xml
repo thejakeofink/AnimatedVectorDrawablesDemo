@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/down_caret">
+
+    <target
+        android:name="@string/down_caret"
+        android:animation="@animator/caret_down_to_up"/>
+
+</animated-vector>

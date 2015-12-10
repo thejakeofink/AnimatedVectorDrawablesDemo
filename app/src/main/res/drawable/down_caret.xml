@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/image_size"
+    android:height="@dimen/image_size"
+    android:viewportHeight="@integer/viewport_height"
+    android:viewportWidth="@integer/viewport_width">
+
+    <group
+        android:name="@string/groupCaretSwitch"
+        android:pivotX="@integer/viewport_center_x"
+        android:pivotY="@integer/viewport_center_y">
+
+        <path
+            android:name="@string/down_caret"
+            android:fillColor="@android:color/transparent"
+            android:pathData="@string/path_down_caret"
+            android:strokeColor="@color/colorAccent"
+            android:strokeLineCap="square"
+            android:strokeWidth="@integer/stroke_width"/>
+    </group>
+
+</vector>

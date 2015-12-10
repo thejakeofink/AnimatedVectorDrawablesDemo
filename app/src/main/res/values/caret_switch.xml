@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="image_size">100dp</dimen>
+
+    <integer name="viewport_width">100</integer>
+    <integer name="viewport_height">100</integer>
+    <integer name="viewport_center_x">50</integer>
+    <integer name="viewport_center_y">50</integer>
+
+    <string name="path_down_caret">M10,45 L50,85 M50,85 L90,45</string>
+    <string name="path_up_caret">M10,55 L50,15 M50,15 L90,55</string>
+
+    <integer name="stroke_width">2</integer>
+
+    <string name="down_caret">down_caret</string>
+    <string name="up_caret">up_caret</string>
+    <string name="groupCaretSwitch">groupCaretSwitch</string>
+
+    <integer name="caret_switch_duration">450</integer>
+
+</resources>
