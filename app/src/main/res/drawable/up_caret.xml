@@ -17,7 +17,7 @@
             android:pathData="@string/path_up_caret"
             android:strokeColor="@color/colorAccent"
             android:strokeLineCap="square"
-            android:strokeWidth="2"/>
+            android:strokeWidth="@integer/stroke_width"/>
     </group>
 
 </vector>
