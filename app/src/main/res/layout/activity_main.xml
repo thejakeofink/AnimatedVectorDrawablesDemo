@@ -11,6 +11,6 @@
         android:id="@+id/my_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/avd_caret_up_to_down"/>
+        android:src="@drawable/avd_caret_down_to_up"/>
 
 </RelativeLayout>

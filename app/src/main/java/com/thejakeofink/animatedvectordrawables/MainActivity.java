@@ -20,18 +20,25 @@ public class MainActivity extends AppCompatActivity {
 
         myImageView = (ImageView) findViewById(R.id.my_image_view);
 
+        myImageView.setImageDrawable(getDirectionalDrawable());
+
         myImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                isUp = !isUp;
-                Drawable d = getResources().getDrawable(isUp ? R.drawable.avd_caret_up_to_down : R.drawable.avd_caret_down_to_up, getTheme());
+                Drawable d = getDirectionalDrawable();
 
                 myImageView.setImageDrawable(d);
                 if (d instanceof AnimatedVectorDrawable) {
                     ((AnimatedVectorDrawable) d).start();
                 }
+
+                isUp = !isUp;
             }
         });
 
+    }
+
+    private Drawable getDirectionalDrawable() {
+        return getDrawable(isUp ? R.drawable.avd_caret_up_to_down : R.drawable.avd_caret_down_to_up);
     }
 }
